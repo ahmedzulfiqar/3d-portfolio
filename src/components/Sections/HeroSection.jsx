@@ -4,7 +4,7 @@ import Spline from "@splinetool/react-spline";
 function HeroSection() {
   const TEXTS = ["Web ", "Front End ", "Full Stack ", "Mern Stack "];
   return (
-    <div className="col-12 p-0 vh-100 mt-lg-0 mt-5 pt-lg-0 pt-5">
+    <div className="col-12 p-0 vh-100 mt-lg-0 mt-0 pt-lg-0 pt-0">
       <div className="container h-100">
         <div className="row m-0 h-100">
           <div className="col-lg-7 col-12 align-self-center order-lg-0 order-1">
@@ -12,7 +12,7 @@ function HeroSection() {
               <div className="align-self-center text-lg-start text-center  ">
                 <div className="mb-3  text-light border-main bg-primarys w-min px-lg-2 px-1 mx-md-0 mx-auto rounded-2 py-2">
                   <TypeAnimation
-                    className="fs-5"
+                    className="fs-6"
                     sequence={[
                       // Same substring at the start will only be typed out once, initially
                       "I am a Web Developer",
@@ -35,17 +35,17 @@ function HeroSection() {
                 <div className="display-1 fw-bolder text-light  mb-3  p-0 d ">
                   I Am Ahmed <span className="text-main m-0 p-0">Zulfiqar</span>
                 </div>{" "}
-                <p className="ds mb-3 text-light fw-lighter">
-                  <span className="text-primarya fw-bolder">{"<h1>"}</span>
+                <p className="fs-5 mb-3 text-light fw-lighter">
+                  <span className="text-main fw-bolder">{"<h1> "}</span>
                   Crafting Engaging Web Experiences with React: Bridging Code
                   and Creativity for Intuitive Digital Solutions.{" "}
-                  <span className="text-primarya fw-bolder">{"</h1>"}</span>
+                  <span className="text-main fw-bolder">{" </h1>"}</span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-12   align-self-center h-75 order-lg-1 order-0  justify-content-start ">
-            <Spline scene="https://prod.spline.design/U145PDeYoKtm6q2i/scene.splinecode" className=""/>
+          <div className="col-lg-5 col-12  d-lg-block d-none align-self-center h-75 order-lg-1 order-0  justify-content-start ">
+            <Spline scene="https://prod.spline.design/HUFJWE2uwyO4ihol/scene.splinecode" />
           </div>
         </div>
       </div>

@@ -48,7 +48,7 @@
   );
 }
 .w-min {
-  width: 260px !important;
+  width: max-content !important;
   max-width: 100% !important;
 }
 li a {
